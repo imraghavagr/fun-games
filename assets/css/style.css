@@ -1,0 +1,32 @@
+/* .gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+body{
+    background-image: linear-gradient(to right top, #ffeef4, #ffebec, #fde8e3, #f8e6db, #f1e5d5, #e7dfcc, #ddd9c3, #d1d4bc, #c2c8ad, #b3bd9f, #a4b191, #94a684);
+    height: 100vh;
+}
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;  
+}
+.flex-contianer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
