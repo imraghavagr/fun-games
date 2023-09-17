@@ -30,8 +30,11 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 1rem;
     /* height: 100vh; */
 }
 @media (max-width: 650px){
-  
+  .flex-contianer{
+    flex-direction: column;
+  }
 }
