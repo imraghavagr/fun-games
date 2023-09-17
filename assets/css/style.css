@@ -22,11 +22,16 @@ h1 {
     font-size: 5rem;
     color: #DBEDF3;
     font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;  
+    text-shadow: 3px 0 #DA0463; 
+    text-align: center; 
+    margin-bottom: 4rem;
 }
 .flex-contianer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
+}
+@media (max-width: 650px){
+  
 }
