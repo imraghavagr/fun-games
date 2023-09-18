@@ -4,7 +4,7 @@ var userClickedPattern = [];
 var level = 0; 
 
 function playSoundForButton(chosenColor){
-    var soundPath = "assets/sounds/"+ chosenColor+".mp3";
+    var soundPath = "assets/sounds/simon-game/"+ chosenColor+".mp3";
     var audio = new Audio(soundPath); 
     audio.play();   
 }
@@ -48,7 +48,7 @@ function nextSequence(){
 function gameOver(){
     //play game over sound
     $("h1").text("Game Over, Press any key to Restart");
-    var audio = new Audio("assets/sounds/wrong.mp3");
+    var audio = new Audio("assets/sounds/simon-game/wrong.mp3");
     audio.play();
     $("body").addClass("game-over");
     //now remove the game-over class aster 200ms
