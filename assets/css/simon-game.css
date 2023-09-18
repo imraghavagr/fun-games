@@ -1,13 +1,14 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-image: linear-gradient(to right top, #ffeef4, #ffebec, #fde8e3, #f8e6db, #f1e5d5, #e7dfcc, #ddd9c3, #d1d4bc, #c2c8ad, #b3bd9f, #a4b191, #94a684);
+  height: 100vh;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;  
 }
 
 .container {
