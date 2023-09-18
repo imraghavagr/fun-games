@@ -1,7 +1,15 @@
 body {
     text-align: center;
-    background-image: linear-gradient(to right top, #ffeef4, #ffebec, #fde8e3, #f8e6db, #f1e5d5, #e7dfcc, #ddd9c3, #d1d4bc, #c2c8ad, #b3bd9f, #a4b191, #94a684);
     height: 100vh;
+    background: hsla(285, 42%, 33%, 1);
+
+    background: linear-gradient(90deg, hsla(285, 42%, 33%, 1) 0%, hsla(333, 54%, 51%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(285, 42%, 33%, 1) 0%, hsla(333, 54%, 51%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(285, 42%, 33%, 1) 0%, hsla(333, 54%, 51%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#663177", endColorstr="#C63F7B", GradientType=1 );
   }
   
   h1 {
